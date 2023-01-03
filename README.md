@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # bradiian.github.io
 
 안녕하세요 브래디 입니다.
@@ -8,7 +12,7 @@
 
 2023-01-03. 화
 
-ref. https://github.com/pages-themes/minimal
+theme by . https://github.com/pages-themes/minimal
 
 {% for post in site.posts %}
 
@@ -18,7 +22,7 @@ ref. https://github.com/pages-themes/minimal
         {{ post.title }}
       </a>
     </h2>
-    <time datetime="{{ post.date | date: "%Y/%m/%d" }}">{{ post.date | date_to_long_string }}</time>
+    <time datetime="{{ post.date | date: "%Y/%m/%d" }}">{{ post.date | date: "%Y/%m/%d" }}</time>
     {{ post.content }}
   </article>
 {% endfor %}
