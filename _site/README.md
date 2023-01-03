@@ -8,8 +8,6 @@
 
 2023-01-03. 화
 
-theme by . https://github.com/pages-themes/minimal
-
 {% for post in site.posts %}
 
   <article>
